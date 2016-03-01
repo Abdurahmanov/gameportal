@@ -1,0 +1,188 @@
+@font-face {
+    font-family: 'Exo2-Black';
+    src: url('../fonts/Exo2-Black/Exo2-Black.eot');
+    src: url('../fonts/Exo2-Black/Exo2-Black.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Exo2-Black/Exo2-Black.woff') format('woff'),
+         url('../fonts/Exo2-Black/Exo2-Black.ttf') format('truetype'),
+         url('../fonts/Exo2-Black/Exo2-Black.svg#ds-digitalnormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Exo2-BlackItalic';
+    src: url('../fonts/Exo2-BlackItalic/Exo2-BlackItalic.eot');
+    src: url('../fonts/Exo2-BlackItalic/Exo2-BlackItalic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Exo2-BlackItalic/Exo2-BlackItalic.woff') format('woff'),
+         url('../fonts/Exo2-BlackItalic/Exo2-BlackItalic.ttf') format('truetype'),
+         url('../fonts/Exo2-BlackItalic/Exo2-BlackItalic.svg#ds-digitalnormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Exo2-Bold';
+    src: url('../fonts/Exo2-Bold/Exo2-Bold.eot');
+    src: url('../fonts/Exo2-Bold/Exo2-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Exo2-Bold/Exo2-Bold.woff') format('woff'),
+         url('../fonts/Exo2-Bold/Exo2-Bold.ttf') format('truetype'),
+         url('../fonts/Exo2-Bold/Exo2-Bold.svg#ds-digitalnormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Exo2-BoldItalic';
+    src: url('../fonts/Exo2-BoldItalic/Exo2-BoldItalic.eot');
+    src: url('../fonts/Exo2-BoldItalic/Exo2-BoldItalic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Exo2-BoldItalic/Exo2-BoldItalic.woff') format('woff'),
+         url('../fonts/Exo2-BoldItalic/Exo2-BoldItalic.ttf') format('truetype'),
+         url('../fonts/Exo2-BoldItalic/Exo2-BoldItalic.svg#ds-digitalnormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Exo2-ExtraLight';
+    src: url('../fonts/Exo2-ExtraLight/Exo2-ExtraLight.eot');
+    src: url('../fonts/Exo2-ExtraLight/Exo2-ExtraLight.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Exo2-ExtraLight/Exo2-ExtraLight.woff') format('woff'),
+         url('../fonts/Exo2-ExtraLight/Exo2-ExtraLight.ttf') format('truetype'),
+         url('../fonts/Exo2-ExtraLight/Exo2-ExtraLight.svg#ds-digitalnormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Exo2-ExtraLightItalic';
+    src: url('../fonts/Exo2-ExtraLightItalic/Exo2-ExtraLightItalic.eot');
+    src: url('../fonts/Exo2-ExtraLightItalic/Exo2-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Exo2-ExtraLightItalic/Exo2-ExtraLightItalic.woff') format('woff'),
+         url('../fonts/Exo2-ExtraLightItalic/Exo2-ExtraLightItalic.ttf') format('truetype'),
+         url('../fonts/Exo2-ExtraLightItalic/Exo2-ExtraLightItalic.svg#ds-digitalnormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Exo2-Italic';
+    src: url('../fonts/Exo2-Italic/Exo2-Italic.eot');
+    src: url('../fonts/Exo2-Italic/Exo2-Italic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Exo2-Italic/Exo2-Italic.woff') format('woff'),
+         url('../fonts/Exo2-Italic/Exo2-Italic.ttf') format('truetype'),
+         url('../fonts/Exo2-Italic/Exo2-Italic.svg#ds-digitalnormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Exo2-Light';
+    src: url('../fonts/Exo2-Light/Exo2-Light.eot');
+    src: url('../fonts/Exo2-Light/Exo2-Light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Exo2-Light/Exo2-Light.woff') format('woff'),
+         url('../fonts/Exo2-Light/Exo2-Light.ttf') format('truetype'),
+         url('../fonts/Exo2-Light/Exo2-Light.svg#ds-digitalnormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Exo2-LightItalic';
+    src: url('../fonts/Exo2-LightItalic/Exo2-LightItalic.eot');
+    src: url('../fonts/Exo2-LightItalic/Exo2-LightItalic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Exo2-LightItalic/Exo2-LightItalic.woff') format('woff'),
+         url('../fonts/Exo2-LightItalic/Exo2-LightItalic.ttf') format('truetype'),
+         url('../fonts/Exo2-LightItalic/Exo2-LightItalic.svg#ds-digitalnormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Exo2-Medium';
+    src: url('../fonts/Exo2-Medium/Exo2-Medium.eot');
+    src: url('../fonts/Exo2-Medium/Exo2-Medium.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Exo2-Medium/Exo2-Medium.woff') format('woff'),
+         url('../fonts/Exo2-Medium/Exo2-Medium.ttf') format('truetype'),
+         url('../fonts/Exo2-Medium/Exo2-Medium.svg#ds-digitalnormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Exo2-MediumItalic';
+    src: url('../fonts/Exo2-MediumItalic/Exo2-MediumItalic.eot');
+    src: url('../fonts/Exo2-MediumItalic/Exo2-MediumItalic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Exo2-MediumItalic/Exo2-MediumItalic.woff') format('woff'),
+         url('../fonts/Exo2-MediumItalic/Exo2-MediumItalic.ttf') format('truetype'),
+         url('../fonts/Exo2-MediumItalic/Exo2-MediumItalic.svg#ds-digitalnormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Exo2-Regular';
+    src: url('../fonts/Exo2-Regular/Exo2-Regular.eot');
+    src: url('../fonts/Exo2-Regular/Exo2-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Exo2-Regular/Exo2-Regular.woff') format('woff'),
+         url('../fonts/Exo2-Regular/Exo2-Regular.ttf') format('truetype'),
+         url('../fonts/Exo2-Regular/Exo2-Regular.svg#ds-digitalnormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Exo2-SemiBold';
+    src: url('../fonts/Exo2-SemiBold/Exo2-SemiBold.eot');
+    src: url('../fonts/Exo2-SemiBold/Exo2-SemiBold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Exo2-SemiBold/Exo2-SemiBold.woff') format('woff'),
+         url('../fonts/Exo2-SemiBold/Exo2-SemiBold.ttf') format('truetype'),
+         url('../fonts/Exo2-SemiBold/Exo2-SemiBold.svg#ds-digitalnormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Exo2-SemiBoldItalic';
+    src: url('../fonts/Exo2-SemiBoldItalic/Exo2-SemiBoldItalic.eot');
+    src: url('../fonts/Exo2-SemiBoldItalic/Exo2-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Exo2-SemiBoldItalic/Exo2-SemiBoldItalic.woff') format('woff'),
+         url('../fonts/Exo2-SemiBoldItalic/Exo2-SemiBoldItalic.ttf') format('truetype'),
+         url('../fonts/Exo2-SemiBoldItalic/Exo2-SemiBoldItalic.svg#ds-digitalnormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Exo2-Thin';
+    src: url('../fonts/Exo2-Thin/Exo2-Thin.eot');
+    src: url('../fonts/Exo2-Thin/Exo2-Thin.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Exo2-Thin/Exo2-Thin.woff') format('woff'),
+         url('../fonts/Exo2-Thin/Exo2-Thin.ttf') format('truetype'),
+         url('../fonts/Exo2-Thin/Exo2-Thin.svg#ds-digitalnormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Exo2-ThinItalic';
+    src: url('../fonts/Exo2-ThinItalic/Exo2-ThinItalic.eot');
+    src: url('../fonts/Exo2-ThinItalic/Exo2-ThinItalic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Exo2-ThinItalic/Exo2-ThinItalic.woff') format('woff'),
+         url('../fonts/Exo2-ThinItalic/Exo2-ThinItalic.ttf') format('truetype'),
+         url('../fonts/Exo2-ThinItalic/Exo2-ThinItalic.svg#ds-digitalnormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon/icomoon.eot');
+    src: url('../fonts/icomoon/icomoon.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/icomoon/icomoon.woff') format('woff'),
+         url('../fonts/icomoon/icomoon.ttf') format('truetype'),
+         url('../fonts/icomoon/icomoon.svg#ds-digitalnormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic&subset=latin,cyrillic);

@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>gameportal</title>
+    <!-- css -->
+    <link rel="stylesheet" href="../js/fancybox/source/jquery.fancybox.css ">
+    <link rel="stylesheet" href="../css/owl.carousel.css">
+    <link rel="stylesheet" href="../css/owl.theme.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- js -->
+    <script src="../js/jquery.js"></script>
+    <script src="../js/jquery.validate.min.js"></script>
+    <script src="../js/owl.carousel.js"></script>
+    <script src="../js/wookmark.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/fancybox/source/jquery.fancybox.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="#">supergamer</a>
+        </div>
+        <nav class="menu-top">
+           <ul class="menu">
+               <li class="menu__item"><a href="#">Игры <span class="menu__item_arrow"></span></a>
+                    <ul class="sub-menu">
+                        <li class="sub-menu__item"><a href="#">Онлайн игры</a></li>
+                        <li class="sub-menu__item"><a href="#">Браузерные</a></li>
+                        <li class="sub-menu__item"><a href="#">Консольные</a></li>
+                        <li class="sub-menu__item"><a href="#">PC</a></li>
+                    </ul>
+                </li>
+                <li class="menu__item"><a href="#">Программы</a></li>
+                <li class="menu__item"><a href="#">Приколы</a></li>
+                <!--<li class="menu__item"><a href="#">Радио</a></li>-->
+                <li class="menu__item"><a href="#">Новости</a></li>
+                <li class="menu__item"><a href="#">Партнёрская программа</a></li>
+                <li class="menu__item"><a href="#modal-feedback" class="modalbox">Обратная связь</a></li>
+           </ul>
+        </nav>
+        <!--<span class="header__line"></span>-->
+        <!--<div class="header-radio">-->
+            <!--<div class="header-radio__icon"></div>-->
+            <!--<div class=" header-radio__now">-->
+                <!--<div class="header-radio__now_title">-->
+                    <!--сейчас играет-->
+                    <!--<span class="header-radio__icon_prev"></span>-->
+                    <!--<span class="header-radio__icon_next"></span>-->
+                <!--</div>-->
+                <!--<div class="header-radio__now_station">-->
+                    <!--<a href="#" class="header-radio__link">Trombax FM</a>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="header-radio__volume">-->
+                <!--<span class="header-radio__volume_item"></span>-->
+                <!--<span class="header-radio__volume_item header-radio__volume_item_active"></span>-->
+                <!--<span class="header-radio__volume_item header-radio__volume_item_active"></span>-->
+                <!--<span class="header-radio__volume_item header-radio__volume_item_active"></span>-->
+            <!--</div>-->
+        <!--</div>-->
+        <div class="langauges">
+            <span class="langauges__language langauges__language_active"> RU</span>
+            <span class="langauges__language ">EN</span>
+        </div>
+        <span class="header__line"></span>
+        <div class="search">
+            <div class="search__icon"></div>
+        </div>
+        <span class="header__line"></span>
+        <a href="#modal-login" class="user modalbox">
+            <div class="user__icon"></div>
+        </a>
+        <span class="header__line"></span>
+
+
+    </header>
+
+    <div class="bg-wrap">
+    <div class="bg-wrap__img"></div>
+</div>
+<div class="wrapper">
+
+
+    <div class="content">
+        <div class="content-left">
+            <div class="application">
+                <div class="breadcrumbs">
+                    <a href="#" class="breadcrumbs__item">Главная </a>
+                </div>
+                <div class="content-left__title-categories">
+                    <span class="content-left__title">
+                        Все программы
+                    </span>
+                    <div class="content-left__categories">
+                        <div class="content-left__categories_select-block">
+                            <select id="id_date_platforms" name="date_platforms" class="content-left__categories_select">
+                                <option value="" selected="selected">Платформы</option>
+                                <option value="1">PC</option>
+                                <option value="2">Mac</option>
+                                <option value="3">Linux</option>
+                            </select>
+                            <div class="select__arrow"></div>
+                        </div>
+                        <div class="content-left__categories_select-block">
+                            <select id="id_date_categories" name="date_categories" class="content-left__categories_select">
+                                <option value="" selected="selected">Жанры</option>
+                                <option value="1">Музыка</option>
+                                <option value="2">Экшен</option>
+                                <option value="3">Гонки</option>
+                            </select>
+                            <div class="select__arrow"></div>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <div class="content-left__item-block">
+                    <div class="content-left__item">
+                        <div class="application__img">
+                            <img src="../img/contnen-left__img.png" alt="">
+                            <a href="#" class="play-now">
+                                <span>ИГРАТЬ СЕЙЧАС</span>
+                            </a>
+                        </div>
+                        <div class="content-left__application-name btn-link">
+                            <a href="#" class="content-left__application-name btn-link">SoundCloud</a>
+                        </div>
+                        <div class="content-left__application-type">Музыка</div>
+                    </div>
+                    <div class="content-left__item">
+                        <div class="application__img">
+                            <img src="../img/contnen-left__img.png" alt="">
+                            <a href="#" class="play-now">
+                                <span>ИГРАТЬ СЕЙЧАС</span>
+                            </a>
+                        </div>
+                        <div class="content-left__application-name btn-link">
+                            <a href="#" class="content-left__application-name btn-link">SoundCloud</a>
+                        </div>
+                        <div class="content-left__application-type">Музыка</div>
+                    </div>
+                    <div class="content-left__item">
+                        <div class="application__img">
+                            <img src="../img/contnen-left__img.png" alt="">
+                            <a href="#" class="play-now">
+                                <span>ИГРАТЬ СЕЙЧАС</span>
+                            </a>
+                        </div>
+                        <div class="content-left__application-name btn-link">
+                            <a href="#" class="content-left__application-name btn-link">SoundCloud</a>
+                        </div>
+                        <div class="content-left__application-type">Музыка</div>
+                    </div>
+                    <div class="content-left__item">
+                        <div class="application__img">
+                            <img src="../img/contnen-left__img.png" alt="">
+                            <a href="#" class="play-now">
+                                <span>ИГРАТЬ СЕЙЧАС</span>
+                            </a>
+                        </div>
+                        <div class="content-left__application-name btn-link">
+                            <a href="#" class="content-left__application-name btn-link">SoundCloud</a>
+                        </div>
+                        <div class="content-left__application-type">Музыка</div>
+                    </div>
+                    <div class="content-left__item">
+                        <div class="application__img">
+                            <img src="../img/contnen-left__img.png" alt="">
+                            <a href="#" class="play-now">
+                                <span>ИГРАТЬ СЕЙЧАС</span>
+                            </a>
+                        </div>
+                        <div class="content-left__application-name btn-link">
+                            <a href="#" class="content-left__application-name btn-link">SoundCloud</a>
+                        </div>
+                        <div class="content-left__application-type">Музыка</div>
+                    </div>
+                    <div class="content-left__item">
+                        <div class="application__img">
+                            <img src="../img/contnen-left__img.png" alt="">
+                            <a href="#" class="play-now">
+                                <span>ИГРАТЬ СЕЙЧАС</span>
+                            </a>
+                        </div>
+                        <div class="content-left__application-name btn-link">
+                            <a href="#" class="content-left__application-name btn-link">SoundCloud</a>
+                        </div>
+                        <div class="content-left__application-type">Музыка</div>
+                    </div>
+                    <div class="content-left__item">
+                        <div class="application__img">
+                            <img src="../img/contnen-left__img.png" alt="">
+                            <a href="#" class="play-now">
+                                <span>ИГРАТЬ СЕЙЧАС</span>
+                            </a>
+                        </div>
+                        <div class="content-left__application-name btn-link">
+                            <a href="#" class="content-left__application-name btn-link">SoundCloud</a>
+                        </div>
+                        <div class="content-left__application-type">Музыка</div>
+                    </div>
+                <div class="content-left__button">
+                    <a href="#" class="content-left__view-more btn-type1">Показать больше игр</a>
+                </div>
+            </div>
+            </div>
+                 <div class="content-left__banner">
+                     <a href="#"><img src="../img/video.png" alt=""/></a>
+                </div>
+                 <div class="fun">
+                    <div class="content-left__title-categories">
+                        <span class="content-left__title">
+                            Свежие приколы
+                        </span>
+                        <div class="content-left__categories">
+                            <a href="" class="content-left__categories-button content-left__categories-button_left content-left__categories-button_active">Юмор</a>
+                            <a href="" class="content-left__categories-button content-left__categories-button_center">Животные</a>
+                            <a href="" class="content-left__categories-button content-left__categories-button_right ">Все</a>
+                        </div>
+                    </div>
+                     <div class="fun-container">
+                        <div class="content-left__item">
+                        <div class="content-left__img">
+                            <img src="../img/contnen-left__img.png" alt="">
+                        </div>
+                        <div class="fun__info">
+                            <div class="fun__name">
+                                Будильник
+                            </div>
+                            <div class="fun__description">
+                                Будильник делает с любимой песней чудеса - через неделю думаешь, как я мог любить это злобное, высасывающее все силы, раздражающее дерьмо.
+                            </div>
+                            <div class="content-left__popularity">
+                                <span class="content-left__like">1258 <span class="content-left__like-icon"></span></span>
+                                <span class="content-left__comments">24 <span class="content-left__comments-icon"></span></span>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="content-left__item">
+                        <div class="content-left__img">
+                            <img src="../img/contnen-left__img.png" alt="">
+                        </div>
+                        <div class="fun__info">
+                            <div class="fun__name">
+                                Цены на органы
+                            </div>
+                            <div class="fun__description">
+                                Думаешь, что ничего не стоишь? Ты, наверное, не слышал про цены на органы...
+                            </div>
+                            <div class="content-left__popularity">
+                                <span class="content-left__like">1258 <span class="content-left__like-icon"></span></span>
+                                <span class="content-left__comments">24 <span class="content-left__comments-icon"></span></span>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="content-left__item">
+                        <div class="content-left__img">
+                            <img src="../img/contnen-left__img.png" alt="">
+                        </div>
+                        <div class="fun__info">
+                            <div class="fun__name">
+                                Машинка
+                            </div>
+                            <div class="fun__description">
+                                - А я вот машинку себе присмотрела классненькую, буду брать!<br>
+- Ничего себе! Люся, покажи место, где ты деньги берёшь, я тоже хочу!<br>
+- Нету, Сёма, у тебя такого места!..
+                            </div>
+                            <div class="content-left__popularity">
+                                <span class="content-left__like">1258 <span class="content-left__like-icon"></span></span>
+                                <span class="content-left__comments">24 <span class="content-left__comments-icon"></span></span>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="content-left__item">
+                        <div class="content-left__img">
+                            <img src="../img/contnen-left__img.png" alt="">
+                        </div>
+                        <div class="fun__info">
+                            <div class="fun__name">
+                                Машинка
+                            </div>
+                            <div class="fun__description">
+                                - А я вот машинку себе присмотрела классненькую, буду брать!<br>
+- Ничего себе! Люся, покажи место, где ты деньги берёшь, я тоже хочу!<br>
+- Нету, Сёма, у тебя такого места!..
+                            </div>
+                            <div class="content-left__popularity">
+                                <span class="content-left__like">1258 <span class="content-left__like-icon"></span></span>
+                                <span class="content-left__comments">24 <span class="content-left__comments-icon"></span></span>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="content-left__item">
+                        <div class="content-left__img">
+                            <img src="../img/contnen-left__img.png" alt="">
+                        </div>
+                        <div class="fun__info">
+                            <div class="fun__name">
+                                Цены на органы
+                            </div>
+                            <div class="fun__description">
+                                Думаешь, что ничего не стоишь? Ты, наверное, не слышал про цены на органы...
+                            </div>
+                            <div class="content-left__popularity">
+                                <span class="content-left__like">1258 <span class="content-left__like-icon"></span></span>
+                                <span class="content-left__comments">24 <span class="content-left__comments-icon"></span></span>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="content-left__item">
+                        <div class="content-left__img">
+                            <img src="../img/contnen-left__img.png" alt="">
+                        </div>
+                        <div class="fun__info">
+                            <div class="fun__name">
+                                Будильник
+                            </div>
+                            <div class="fun__description">
+                                Будильник делает с любимой песней чудеса - через неделю думаешь, как я мог любить это злобное, высасывающее все силы, раздражающее дерьмо.
+                            </div>
+                            <div class="content-left__popularity">
+                                <span class="content-left__like">1258 <span class="content-left__like-icon"></span></span>
+                                <span class="content-left__comments">24 <span class="content-left__comments-icon"></span></span>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="content-left__item">
+                        <div class="content-left__img">
+                            <img src="../img/contnen-left__img.png" alt="">
+                        </div>
+                        <div class="fun__info">
+                            <div class="fun__name">
+                                Будильник
+                            </div>
+                            <div class="fun__description">
+                                Будильник делает с любимой песней чудеса - через неделю думаешь, как я мог любить это злобное, высасывающее все силы, раздражающее дерьмо.
+                            </div>
+                            <div class="content-left__popularity">
+                                <span class="content-left__like">1258 <span class="content-left__like-icon"></span></span>
+                                <span class="content-left__comments">24 <span class="content-left__comments-icon"></span></span>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="content-left__item">
+                        <div class="content-left__img">
+                            <img src="../img/contnen-left__img.png" alt="">
+                        </div>
+                        <div class="fun__info">
+                            <div class="fun__name">
+                                Машинка
+                            </div>
+                            <div class="fun__description">
+                                - А я вот машинку себе присмотрела классненькую, буду брать!<br>
+- Ничего себе! Люся, покажи место, где ты деньги берёшь, я тоже хочу!<br>
+- Нету, Сёма, у тебя такого места!..
+                            </div>
+                            <div class="content-left__popularity">
+                                <span class="content-left__like">1258 <span class="content-left__like-icon"></span></span>
+                                <span class="content-left__comments">24 <span class="content-left__comments-icon"></span></span>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="content-left__item">
+                        <div class="content-left__img">
+                            <img src="../img/contnen-left__img.png" alt="">
+                        </div>
+                        <div class="fun__info">
+                            <div class="fun__name">
+                                Будильник
+                            </div>
+                            <div class="fun__description">
+                                Будильник делает с любимой песней чудеса - через неделю думаешь, как я мог любить это злобное, высасывающее все силы, раздражающее дерьмо.
+                            </div>
+                            <div class="content-left__popularity">
+                                <span class="content-left__like">1258 <span class="content-left__like-icon"></span></span>
+                                <span class="content-left__comments">24 <span class="content-left__comments-icon"></span></span>
+                            </div>
+                        </div>
+                     </div>
+                     
+                    </div>
+                     <div class="content-left__button">
+                            <a href="#" class="content-left__view-more btn-type1">Показать больше приколов</a>
+                    </div>
+                </div>
+                <div class="information-about">
+                     <div class="content-left__title-categories">
+                        <span class="content-left__title">
+                            Бесплатные онлайн игры
+                        </span>
+                    </div>
+                    <div>
+                        <div class="information-about__text">
+                            <span class="information-about__text_left">
+                                Браузерная игра сегодня – это полноценный бизнес-проект, на который тратятся миллионы долларов, а над созданием игрового мира работает целый штат геймдизайнеров, программистов, переводчиков. В результате появляются игры с крутой графикой, отличной музыкой, увлекательным сюжетом. Еще на стадии бета-теста такие проекты обзаводятся армией поклонников.
+                            </span>
+                            <span class="information-about__text_right">
+                                Мы гордимся своей коллекцией браузерных онлайн-игр. Список игр обновляется постоянно, в данный момент на портале более двадцати различных проектов, среди них Музыка с ангелами, демонами, драконами и нежитью, морские стратегии, исторические военные стратегии, ролевые игры с воздушными боями, экономические бизнес-симуляторы и многое другое!
+                            </span>
+                        </div>
+                        <div class="content-left__title2">Без каих-либо усилий</div>
+                        <div class="information-about__text">
+                            <span class="information-about__text_left">
+                                Чтобы получить доступ к нашей коллекции, достаточно одного игрового аккаунта на портале. С его помощью можно играть в десятки браузерных игр без регистрации дополнительных учетных записей. Мы находим для наших
+                            </span>
+                            <span class="information-about__text_right">
+                                игроков лучшие игры со всего интернета и вам не придется искать лучшие новинки браузерок в поисковиках. Именно на портале вы найдете ту самую, особенную игру, созданную специально для вас!
+                            </span>
+                        </div>
+                        <div class="information-about__norm"></div>
+                    </div>
+                </div>
+            </div>
+        <div class="content-right">
+            <div class="top-games">
+                <div class="top-games__title">
+                    Топ игр
+                </div>
+                <div class="top-games__item">
+                    <div class="top-games__img">
+                        <img src="../img/news-open__img.png" alt=""/>
+                    </div>
+                    <div class="top-games__name-star">
+                        <div class="top-games__name">
+                            Overlord: Fellowship of Evil
+                        </div>
+                        <div class="top-games__stars">
+                            <span class="top-games__star top-games__star_active"></span>
+                            <span class="top-games__star top-games__star_active"></span>
+                            <span class="top-games__star top-games__star_active"></span>
+                            <span class="top-games__star top-games__star_active"></span>
+                            <span class="top-games__star"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="top-games__line"></div>
+                <div class="top-games__item">
+                   <div class="top-games__img">                         <img src="../img/news-open__img.png" alt=""/>                     </div>
+                    <div class="top-games__name-star">
+                        <div class="top-games__name">
+                            Demon Slayer 2
+                        </div>
+                        <div class="top-games__stars">
+                            <span class="top-games__star top-games__star_active"></span>
+                            <span class="top-games__star top-games__star_active"></span>
+                            <span class="top-games__star top-games__star_active"></span>
+                            <span class="top-games__star top-games__star_active"></span>
+                            <span class="top-games__star"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="top-games__line"></div>
+                <div class="top-games__item">
+                   <div class="top-games__img">                         <img src="../img/news-open__img.png" alt=""/>                     </div>
+                    <div class="top-games__name-star">
+                        <div class="top-games__name">
+                            Call of Gods
+                        </div>
+                        <div class="top-games__stars">
+                            <span class="top-games__star top-games__star_active"></span>
+                            <span class="top-games__star top-games__star_active"></span>
+                            <span class="top-games__star top-games__star_active"></span>
+                            <span class="top-games__star top-games__star_active"></span>
+                            <span class="top-games__star top-games__star_active"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="top-games__line"></div>
+                <div class="top-games__item">
+                   <div class="top-games__img">                         <img src="../img/news-open__img.png" alt=""/>                     </div>
+                    <div class="top-games__name-star">
+                        <div class="top-games__name">
+                            Властители Древнего мира
+                        </div>
+                        <div class="top-games__stars">
+                            <span class="top-games__star top-games__star_active"></span>
+                            <span class="top-games__star top-games__star_active"></span>
+                            <span class="top-games__star top-games__star_active"></span>
+                            <span class="top-games__star top-games__star_active"></span>
+                            <span class="top-games__star"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="top-games__line"></div>
+                 <div class="top-games__item">
+                   <div class="top-games__img">                         <img src="../img/news-open__img.png" alt=""/>                     </div>
+                    <div class="top-games__name-star">
+                        <div class="top-games__name">
+                            Путь меча
+                        </div>
+                        <div class="top-games__stars">
+                            <span class="top-games__star top-games__star_active"></span>
+                            <span class="top-games__star top-games__star_active"></span>
+                            <span class="top-games__star top-games__star_active"></span>
+                            <span class="top-games__star top-games__star_active"></span>
+                            <span class="top-games__star"></span>
+                        </div>
+                    </div>
+                </div>
+                <a href="" class="top-games__show-more btn-type1">
+                    Показать ещё
+                </a>
+            </div>
+            <div class="content__right banner">
+                <img src="../img/banner.png" alt=""/>
+            </div>
+            <div class="vote">
+                <div class="vote__title">
+                    Голосование
+                </div>
+                <div class="vote__survey">
+                    <a href="#" class="vote__prev"></a>
+                    <a href="#" class="vote__next"></a>
+                    <span class="vote__survey-title">Какой Ваш любимый жанр игр? </span>
+                    <div class="vote__radios">
+                        <div class="vote__radio">
+                            <input type="radio"  value="" id="rpg" name="vote-radio">
+                            <label for="rpg">РПГ</label>
+                        </div>
+                        <div class="vote__radio">
+                            <input type="radio"  value="" id="action" name="vote-radio">
+                            <label for="action">Экшен</label>
+                        </div>
+                        <div class="vote__radio">
+                            <input type="radio"  value="" id="race" name="vote-radio">
+                            <label for="race">Гонки</label>
+                        </div>
+                        <div class="vote__radio">
+                            <input type="radio"  value="" id="strategy" name="vote-radio">
+                            <label for="strategy">Стратегии</label>
+                        </div>
+                         <div class="vote__radio">
+                            <input type="radio"  value="" id="sport" name="vote-radio">
+                            <label for="sport">Спортивные</label>
+                        </div>
+
+                    </div>
+                    <a href="" class="vote__button btn-type1">
+                    Проголосовать!
+                    </a>
+                </div>
+            </div>
+              <div class="content__right banner">
+                  <img src="../img/banner.png" alt=""/>
+              </div>
+            </div>
+        </div>
+
+
+        </div>
+
+        <footer class="footer">
+    <div class="footer__wrap">
+        <div class="footer__col">
+            <a href="#" class="footer__menu">Игры</a>
+            <a href="#" class="footer__submenu">Онлайн игры</a>
+            <a href="#" class="footer__submenu">Браузерные</a>
+            <a href="#" class="footer__submenu">Консольные</a>
+            <a href="#" class="footer__submenu">PC</a>
+        </div>
+        <div class="footer__col">
+            <a href="#" class="footer__menu">Программы</a>
+            <a href="#" class="footer__submenu">Полезные</a>
+            <a href="#" class="footer__submenu">Нужные</a>
+        </div>
+         <div class="footer__col">
+            <a href="#" class="footer__menu">Приколы</a>
+            <a href="#" class="footer__submenu">Юмор</a>
+             <a href="#" class="footer__submenu">Животные</a>
+        </div>
+         <div class="footer__col">
+            <a href="#" class="footer__menu">Новости</a>
+            <a href="#" class="footer__submenu">Игровые новсти</a>
+             <a href="#" class="footer__submenu">Новости портала</a>
+        </div>
+         <div class="footer__col">
+            <a href="#" class="footer__menu">Партнерская программа</a>
+            <a href="#modal-feedback" class="footer__menu modalbox">Обратная связь</a>
+        </div>
+        <div class=" footer__col footer__col_social">
+            <span class="footer__cop">© 2015, supergamer - игровой портал.</span>
+            Использование материалов разрешено только с предварительного согласия правообладателей.
+            <div class="footer__social">
+                <a href="#" class="footer__icon footer__icon_vk"></a>
+                <a href="#" class="footer__icon footer__icon_fb"></a>
+                <a href="#" class="footer__icon footer__icon_tw"></a>
+                <a href="#" class="footer__icon footer__icon_yt"></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- modals -->
+
+<div id="modal-login" class="modal">
+    <div class="modal__title">Вход</div>
+    <form action="" method="post" id="modal-login__form">
+        
+        <input type="email" placeholder="Email" class="modal__input" name="modal_email"/>
+        <input type="password" placeholder="Пароль" class="modal__input" name="modal_password"/>
+        <a href="#modal-forgot-password" class="modal__forgot-password btn-link modalbox ">Забыли пароль?</a>
+        <button class="modal__button_login btn-type1">Войти</button>
+    </form>
+   
+    <div class="modal__social">
+        <div class="modal__social-text">или войти с помощью</div>
+        <a href="#" class="modal__icon modal__icon_vk"></a>
+        <a href="#" class="modal__icon modal__icon_fb"></a>
+        <a href="#" class="modal__icon modal__icon_tw"></a>
+    </div>
+    <div class="modal__account">
+        <a href="#modal-reg" class="modal__account-link btn-link modalbox ">У меня нет аккаунта</a>
+    </div>
+</div>
+
+<div id="modal-forgot-password" class="modal">
+    <div class="modal__title">Забыли пароль</div>
+    <form action="" method="post" id="modal-forgot-password__form">
+        
+        <input type="email" placeholder="Email" class="modal__input" name="modal_email" />
+        <button class="modal__button_forgot btn-type1">Восстановить пароль</button>
+    </form>
+</div>
+
+<div id="modal-reg" class="modal">
+    <div class="modal__title">Регистрация</div>
+    <form action="" method="post" id="modal-reg__form">
+        
+        <input type="email" placeholder="Email" class="modal__input" name="modal_email"/>
+        <input type="password" placeholder="Пароль" class="modal__input" name="modal_password" id="modal_password"/>
+        <input type="password" placeholder="Повторите пароль" class="modal__input" name="modal_password_again"/>
+        <div class="modal__rules">
+            Регистрируясь, вы соглашаетесь с <a href="#" class="btn-link" >правилами пользования</a>  сервисами supergamer
+        </div>
+        <button class="modal__button_reg btn-type1">Зарегистрироваться</button>
+    </form>
+    <div class="modal__account">
+        <a href="#modal-login" class="modal__account-link btn-link modalbox">У меня уже есть аккаунта</a>
+    </div>
+</div>
+
+<div id="modal-feedback" class="modal">
+    <div class="modal__title">Обратная связь</div>
+    <form action="" method="post" id="modal-feedback__form">
+        
+        <input type="text" placeholder="Имя *" class="modal__input" name="modal_name"/>
+        <input type="email" placeholder="Email *" class="modal__input" name="modal_email"/>
+        <textarea name="modal_textarea" id="" cols="30" rows="6" placeholder="Ваше сообщение *" class="modal__textarea "></textarea>
+        <button class="modal__button_send btn-type1">Отправить</button>
+    </form>
+</div>
+</body>
+</html>
